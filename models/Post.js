@@ -4,7 +4,7 @@ const sequelize = require('../config/connection');
 //create Post model
 class Post extends Model {};
 
-//create fields/coolumns for the Post model
+//create fields/columns for the Post model
 Post.init(
     {
         id: {
